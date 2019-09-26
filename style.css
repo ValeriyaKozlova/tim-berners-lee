@@ -1,0 +1,80 @@
+body {
+    background-color: #EBEBEB;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #817D7D;
+}
+h1 {
+    color: #DD5555;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+h2,
+h3 {
+    color: #7D7D7D;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 700px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 15px;
+}
+.col-11,
+.col-12,
+.col-13 {
+    grid-column: span 12;
+    justify-content: center;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.col-12 {
+padding-left: 0px;
+}
+.col-11 p,
+.col-13 p {
+    text-align: justify;
+}
+.portrait {
+    width: 150px;
+    border: 4px solid #EBEBEB;
+    border-radius: 50%;
+    text-align: center;
+}
+.wiki {
+    background-color: #DD5555;
+    border-radius: 8px;
+    padding: 10px;
+}
+.col-12 i {
+    width: 100px;
+    color:#CCCCCC;
+    display: block;
+}
+.col-12 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.col-12 a {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+.col-11 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.col-13 img {
+    width: 100px;
+    float: left;
+    padding: 15px;
+}
+.clear {
+    clear: both;
+}
